@@ -1,0 +1,76 @@
+https://www.sitepoint.com/guide-ruby-csv-library-part/
+POST, GET e REST: http://guides.rubyonrails.org/routing.html#crud-verbs-and-actions
+Collections: http://api.rubyonrails.org/classes/ActionView/Helpers/FormOptionsHelper.html#method-i-collection_select
+HTML e CSS: https://www.sanwebe.com/2013/10/css-html-form-styles
+Nested Attributes: http://api.rubyonrails.org/classes/ActiveRecord/NestedAttributes/ClassMethods.html
+Fileds_for: http://api.rubyonrails.org/classes/ActionView/Helpers/FormHelper.html#method-i-fields_for
+i18n: https://en.wikipedia.org/wiki/YAML
+      http://guides.rubyonrails.org/i18n.html
+      https://github.com/svenfuchs/rails-i18n
+i18n - ActiveRecord: http://guides.rubyonrails.org/i18n.html#translations-for-active-record-models
+Estados Brasileiros: https://gist.github.com/jacksonpires/4a3f5a0092a0a09547da228046f12108
+
+https://thomasroest.com/2017/05/04/importing-and-visualizing-csv-data-with-rails-and-chartkick.html
+http://www.mattmorgante.com/technology/csv
+https://gorails.com/episodes/intro-to-importing-from-csv
+
+https://richonrails.com/articles/importing-csv-files
+
+gem pry-rails
+
+------------------------------------------------------------------------------------------
+Dynamic nested forms using jQuery made easy; works with formtastic, simple_form or default forms 
+gem cocoon
+https://github.com/nathanvda/cocoon
+------------------------------------------------------------------------------------------
+Cycle - helper para estilo
+http://api.rubyonrails.org/classes/ActionView/Helpers/TextHelper.html#method-i-cycle
+html color picker
+
+https://jornadadodev.com.br/cursos/curso-de-ruby-rails/aula-36-criando-um-formulario-de-pesquisa
+
+form_tag rails
+
+https://www.devmedia.com.br/como-criar-um-crud-completo-com-rails/33986
+
+type="file"
+
+http://blog.rivendel.com.br/2014/01/20/upload-pro-s3-o-mais-simples-possivel-em-ruby/
+
+https://www.pluralsight.com/guides/handling-file-upload-using-ruby-on-rails-5-api
+
+https://stackoverflow.com/questions/11342338/how-to-upload-a-file-in-ruby-on-rails
+
+https://www.tutorialspoint.com/ruby-on-rails/rails-file-uploading.htm
+
+https://stackoverflow.com/questions/14187859/upload-csv-file-in-rails-and-process-records-to-display-on-page-without-saving-f
+
+https://richonrails.com/articles/importing-csv-files
+
+upload file csv ruby
+
+https://www.devmedia.com.br/validando-o-usuario-com-ruby-on-rails/31533
+
+#Release do BD de determinada aplicação
+rake db:drop db:create db:migrate db:seed utils:seed
+
+gem uninstall fileutils
+gem update fileutils --default
+
+----------------------------------------------------------------------------------
+#Paginação
+https://github.com/mislav/will_paginate
+http://github.com/amatsuda/kaminari
+kaminari-i18n
+
+----------------------------------------------------------------------------------
+#active record validations
+http://guides.rubyonrails.org/active_record_validations.html
+
+----------------------------------------------------------------------------------
+#Filters
+http://guides.rubyonrails.org/action_controller_overview.html#filters
+
+----------------------------------------------------------------------------------
+#AssetvPipeline
+http://guides.rubyonrails.org/asset_pipeline.html

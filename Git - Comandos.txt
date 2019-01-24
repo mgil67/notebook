@@ -1,0 +1,28 @@
+#Primeiro, faço um fork do projeto original no Github 
+#Depois, um clone do meu repositório no Github em minha máquina:
+
+git clone https://github.com/mgil67/notebook
+
+#Neste ponto, você tem um remoto chamado "origin". Então, adicione outro, chamado "upstream", que aponte para o original:
+
+git remote add upstream git@github.com:gatein/gatein-portal.git
+
+#De tempos em tempos, sincronize:
+
+git checkout master
+git fetch upstream
+git rebase upstream/master
+
+#Após fazer o rebase acima, meu master local fica exatamente igual ao master do upstream, precisando apenas atualizar a versão do github:
+
+git push origin master
+
+#Eu tenho o costume de trabalhar apenas em tópicos (ie: a cada nova feature, um novo branch). Quando eu acabo o trabalho, envio este branch para o github:
+
+git push
+
+----------------------------------------------------------------------
+fatal: not a git repository (or any of the parent directories): .git
+
+git init
+
