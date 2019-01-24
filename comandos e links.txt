@@ -74,3 +74,26 @@ http://guides.rubyonrails.org/action_controller_overview.html#filters
 ----------------------------------------------------------------------------------
 #AssetvPipeline
 http://guides.rubyonrails.org/asset_pipeline.html
+
+----------------------------------------------------------------------------------
+#Coding Links to Assets
+https://guides.rubyonrails.org/asset_pipeline.html#coding-links-to-assets
+
+----------------------------------------------------------------------------------
+#Precompilando Assets
+config/initializers/assets.rb
+
+----------------------------------------------------------------------------------
+#Controller Specific Assets
+https://guides.rubyonrails.org/asset_pipeline.html#controller-specific-assets
+
+----------------------------------------------------------------------------------
+#JQuery
+http://jquery.com/
+http://guides.rubyonrails.org/working_with_javascript_in_rails.html
+
+----------------------------------------------------------------------------------
+#Rails AJAX
+remote: true
+Browser -> Controller -> js -> Browser
+
