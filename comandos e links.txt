@@ -80,8 +80,10 @@ http://guides.rubyonrails.org/asset_pipeline.html
 https://guides.rubyonrails.org/asset_pipeline.html#coding-links-to-assets
 
 ----------------------------------------------------------------------------------
-#Precompilando Assets
+#Precompilando Assets - Carrega todas as libs necessárias ao projeto
 config/initializers/assets.rb
+vendor/assets/ -> pastas de libs de terceiros
+app/views/layout/application.html.erb -> carrega as libs
 
 ----------------------------------------------------------------------------------
 #Controller Specific Assets
@@ -96,4 +98,8 @@ http://guides.rubyonrails.org/working_with_javascript_in_rails.html
 #Rails AJAX
 remote: true
 Browser -> Controller -> js -> Browser
+
+----------------------------------------------------------------------------------
+#JS
+https://notifyjs.com/
 

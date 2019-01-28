@@ -5,12 +5,7 @@ class ContactsController < ApplicationController
   # GET /contacts
   # GET /contacts.json
   def index
-    #Paginaçaão
-    #@contacts = Contact.all.page(params[:page])
-    #Paginaçaão por página
-    #@contacts = Contact.all.page(params[:page]).per(15)
-    #Paginaçaão ordenado e com limite de itens por página
-    @contacts = Contact.all.order(:name).page(params[:page]).per(15)
+    @contacts = Contact.order(:name).page(params[:page]).per(15)
   end
 
   # GET /contacts/1
@@ -22,7 +17,6 @@ class ContactsController < ApplicationController
   def new
     @contact = Contact.new
     @contact.build_address
-    
   end
 
   # GET /contacts/1/edit

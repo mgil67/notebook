@@ -187,6 +187,7 @@ DEPENDENCIES
   faker
   jbuilder (~> 2.0)
   jquery-rails
+  json (~> 1.8.3)
   kaminari
   kaminari-i18n
   lerolero_generator

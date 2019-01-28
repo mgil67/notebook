@@ -13,7 +13,7 @@
 
   <tbody>
     <% @phones.each do |phone| %>
-      <tr style="background: <%=cycle('#F7F7F7','lightgreen')%>">
+      <tr>
         <td><%= phone.phone %></td>
         <td><%= phone.contact %></td>
         <td><%= link_to 'Show', phone %></td>
