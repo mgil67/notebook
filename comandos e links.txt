@@ -103,3 +103,48 @@ Browser -> Controller -> js -> Browser
 #JS
 https://notifyjs.com/
 
+----------------------------------------------------------------------------------
+#Bower
+https://bower.io/
+npm config set proxy http://proxy.company.com:8080
+
+----------------------------------------------------------------------------------
+#Bower-rails gem
+http://github.com/rharriso/bower-rails
+vendor/assets/
+
+----------------------------------------------------------------------------------
+#Rails-Assets (bibliotecas js para diversas finalidades)
+https://rails-assets.org
+
+----------------------------------------------------------------------------------
+Lista as tasks de determinados componentes:
+Rake -T assets
+Rake -T log
+Rake -T tmp
+
+----------------------------------------------------------------------------------
+Html Basic Authentication
+http://guides.rubyonrails.org/v4.2/getting_started.html#basic-authentication
+
+----------------------------------------------------------------------------------
+Haml e Slim
+http://haml.info/
+
+----------------------------------------------------------------------------------
+Form Builders:
+Formastic Gem
+https://github.com/justinfrench/formtastic
+Simpleform Gem
+https://github.com/plataformatec/simple_form
+
+----------------------------------------------------------------------------------
+Bootstrap
+http://getbootstrap.com
+
+Notifyjs
+
+----------------------------------------------------------------------------------
+#file_validators
+https://rubygems.org/gems/file_validators
+https://nguyentatnam.wordpress.com/2016/08/30/validate-uploaded-file-in-ruby-on-rails/

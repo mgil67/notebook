@@ -2,8 +2,12 @@ source 'https://rubygems.org'
 
 #json 1.8.3
 gem 'json', '~> 1.8.3'
+#The solution to assets management in Rails
+gem 'bundler', '>= 1.8.4'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 4.2', '>= 4.2.5'
+# Notifyjs
+gem 'rails-assets-notifyjs', source: 'https://rails-assets.org'
 # i18n for kaminari
 gem 'kaminari-i18n'
 # A Scope & Engine based, clean, powerful, customizable and sophisticated paginator for Rails 3 and 4
@@ -35,6 +39,9 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
+# Latest version Bootstrap:  4.1.3
+gem 'rails-assets-bootstrap', source: 'https://rails-assets.org'
+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

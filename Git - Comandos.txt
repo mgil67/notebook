@@ -30,8 +30,10 @@ git add * -f
 
 git commit -m "Primeiro commit!"
 
-git remote add origin https://github.com/mgil67/notebook
+#git remote add origin https://github.com/mgil67/notebook
 
-git push -u origin master ou git push -u origin master --force
+#git push -u origin master 
+
+git push -u origin master --force
 
 
