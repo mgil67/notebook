@@ -156,3 +156,7 @@ https://dashboard.heroku.com/
 https://toolbelt.heroku.com
 	sudo apt install snapd
 	sudo snap install --classic heroku
+heroku login
+sudo heroku create agenda-mgil  (a saida deve ser:) -->> https://agenda-mgil.herokuapp.com/ | https://git.heroku.com/agenda-mgil.git
+
+

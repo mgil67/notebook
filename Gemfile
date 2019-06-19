@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
-ruby '2.4.2
-'
+ruby '2.4.2'
+
 #json 1.8.3
 gem 'json', '~> 1.8.3'
 #The solution to assets management in Rails
@@ -21,8 +21,6 @@ gem 'lerolero_generator'
 gem 'rails-i18n', '~> 4.0.0' # For 4.0.x
 # A library for generating fake data such as names, addresses, and phone numbers.
 gem 'faker'
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -58,8 +56,6 @@ group :development, :test do
   gem 'byebug'
   # Rails >= 3 pry initializer
   gem 'pry-rails'
-  # Use sqlite3 as the database for Active Record
-  gem 'sqlite3'
 end
 
 group :development do
