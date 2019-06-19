@@ -148,3 +148,11 @@ Notifyjs
 #file_validators
 https://rubygems.org/gems/file_validators
 https://nguyentatnam.wordpress.com/2016/08/30/validate-uploaded-file-in-ruby-on-rails/
+
+#heroku - publica sua aplicação (free) na internet
+https://dashboard.heroku.com/
+
+#heroku toolbelt
+https://toolbelt.heroku.com
+	sudo apt install snapd
+	sudo snap install --classic heroku

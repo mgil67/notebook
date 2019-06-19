@@ -4060,3 +4060,113 @@ Started GET "/" for 127.0.0.1 at 2019-03-08 14:33:35 -0300
 Processing by HomeController#index as HTML
   Rendered home/index.html.erb within layouts/application (0.4ms)
 Completed 200 OK in 44ms (Views: 43.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-06-18 09:32:26 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 1806ms (Views: 1800.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.self-395a2b06714471393791f2d46be991806ab96b547215aef8225a3a5feb4d5672.css?body=1" for 127.0.0.1 at 2019-06-18 09:32:28 -0300
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2019-06-18 09:32:28 -0300
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2019-06-18 09:32:28 -0300
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2019-06-18 09:32:28 -0300
+
+
+Started GET "/assets/bootstrap.self-2fd025d091b914dc1062d7f79ac2067e016a4295bb6420f02bb9b485f539e507.css?body=1" for 127.0.0.1 at 2019-06-18 09:32:28 -0300
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2019-06-18 09:32:28 -0300
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2019-06-18 09:32:28 -0300
+
+
+Started GET "/assets/cocoon.self-370b8a0548023381b4390959eee443d8f04905f69065514d65112838f23e64e1.js?body=1" for 127.0.0.1 at 2019-06-18 09:32:28 -0300
+
+
+Started GET "/assets/addresses.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2019-06-18 09:32:28 -0300
+
+
+Started GET "/assets/contacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2019-06-18 09:32:28 -0300
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2019-06-18 09:32:28 -0300
+
+
+Started GET "/assets/kinds.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2019-06-18 09:32:28 -0300
+
+
+Started GET "/assets/phones.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2019-06-18 09:32:28 -0300
+
+
+Started GET "/assets/notifyjs/notify.self-580979233c906abe103d95ccdbfe97994e5a03d69946ab5b2f74dc3a667fde52.js?body=1" for 127.0.0.1 at 2019-06-18 09:32:28 -0300
+
+
+Started GET "/assets/notifyjs.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2019-06-18 09:32:28 -0300
+
+
+Started GET "/assets/bootstrap/bootstrap.bundle.self-bc52ca2de22a3c37d3bc2ed1756cac4cca78e05c5ee378b4b211fc62ff37ef28.js?body=1" for 127.0.0.1 at 2019-06-18 09:32:28 -0300
+
+
+Started GET "/assets/bootstrap.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2019-06-18 09:32:28 -0300
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2019-06-18 09:32:28 -0300
+
+
+Started GET "/kinds" for 127.0.0.1 at 2019-06-18 09:32:31 -0300
+Processing by KindsController#index as HTML
+  [1m[35mKind Load (0.1ms)[0m  SELECT "kinds".* FROM "kinds"
+  Rendered kinds/index.html.erb within layouts/application (694.5ms)
+Completed 200 OK in 736ms (Views: 731.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/kinds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2019-06-18 09:32:32 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2019-06-18 09:32:35 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 43ms (Views: 42.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts" for 127.0.0.1 at 2019-06-18 09:32:36 -0300
+Processing by ContactsController#index as HTML
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "contacts" LIMIT 15 OFFSET 0) subquery_for_count[0m
+  [1m[35mContact Load (0.5ms)[0m  SELECT  "contacts".* FROM "contacts"  ORDER BY "contacts"."name" ASC LIMIT 15 OFFSET 0
+  [1m[36mKind Load (0.1ms)[0m  [1mSELECT  "kinds".* FROM "kinds" WHERE "kinds"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mKind Load (0.1ms)[0m  SELECT  "kinds".* FROM "kinds" WHERE "kinds"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mKind Load (0.1ms)[0m  [1mSELECT  "kinds".* FROM "kinds" WHERE "kinds"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "kinds".* FROM "kinds" WHERE "kinds"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "kinds".* FROM "kinds" WHERE "kinds"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "kinds".* FROM "kinds" WHERE "kinds"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "kinds".* FROM "kinds" WHERE "kinds"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "kinds".* FROM "kinds" WHERE "kinds"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "kinds".* FROM "kinds" WHERE "kinds"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "kinds".* FROM "kinds" WHERE "kinds"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "kinds".* FROM "kinds" WHERE "kinds"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "kinds".* FROM "kinds" WHERE "kinds"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "kinds".* FROM "kinds" WHERE "kinds"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "kinds".* FROM "kinds" WHERE "kinds"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "kinds".* FROM "kinds" WHERE "kinds"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "contacts"
+  Rendered contacts/index.html.erb within layouts/application (55.6ms)
+Completed 200 OK in 118ms (Views: 104.2ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/contacts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2019-06-18 09:32:36 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2019-06-18 09:32:41 -0300
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 53ms (Views: 51.7ms | ActiveRecord: 0.0ms)

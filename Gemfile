@@ -1,11 +1,12 @@
 source 'https://rubygems.org'
-
+ruby '2.4.2
+'
 #json 1.8.3
 gem 'json', '~> 1.8.3'
 #The solution to assets management in Rails
-gem 'bundler', '>= 1.8.4'
+gem 'bundler'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 4.2', '>= 4.2.5'
+gem 'rails'
 # Notifyjs
 gem 'rails-assets-notifyjs', source: 'https://rails-assets.org'
 # i18n for kaminari
@@ -57,6 +58,8 @@ group :development, :test do
   gem 'byebug'
   # Rails >= 3 pry initializer
   gem 'pry-rails'
+  # Use sqlite3 as the database for Active Record
+  gem 'sqlite3'
 end
 
 group :development do
@@ -67,3 +70,8 @@ group :development do
   gem 'spring'
 end
 
+group :production do
+  # Heroku dependencies
+  gem 'pg'
+  gem 'rails_12factor'
+end
