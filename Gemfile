@@ -40,6 +40,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 # Latest version Bootstrap:  4.1.3
 gem 'rails-assets-bootstrap', source: 'https://rails-assets.org'
+gem "activesupport", ">= 5.2.4.3"
 
 
 # Use ActiveModel has_secure_password
